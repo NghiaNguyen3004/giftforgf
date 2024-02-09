@@ -147,9 +147,9 @@ body{
 }
 
 .toggle{
-    background-color: #512da8;
+    background-color: #fc929e;
     height: 100%;
-    background: linear-gradient(to right, #5c6bc0, #512da8);
+    background: linear-gradient(to right, #e19db6, #fc929e);
     color: #fff;
     position: relative;
     left: -100%;
@@ -180,6 +180,7 @@ body{
 
 .toggle-left{
     transform: translateX(-200%);
+    background-color: #f1a0d7;
 }
 
 .container.active .toggle-left{
@@ -189,6 +190,7 @@ body{
 .toggle-right{
     right: 0;
     transform: translateX(0);
+    background-color: #f37a7adf;
 }
 
 .container.active .toggle-right{
